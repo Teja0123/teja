@@ -1,0 +1,12 @@
+import java.util.*;
+public class square{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int A =sc.nextInt();
+        int Area=(int)A*A;
+        int Peri=(int)4*A;
+        System.out.println((int)(Area));
+        System.out.println((int)(Peri));
+    }
+    
+} 
