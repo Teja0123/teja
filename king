@@ -1,0 +1,48 @@
+King loves to go on tours with his friends:
+
+King has Ncars that can seat 5 people each and Mcars that can seat 7 people each. Determine the maximurn number of people that can travel together in these cars.
+
+Input Format:
+
+The first and only line of each test case contains two space-separated integers N and M-the number of 5-seaters and 7-seaters, respectively.
+
+Output Format:
+
+Display line the maximum number of people that can travel together.
+
+Constraints
+
+0s N, Ms 100
+
+Sample I/O:
+
+Input 1:
+Input 1: 48
+
+Output 1: 76
+
+Input 2: 213
+
+Output 2: 101
+
+Input 3: 145
+
+Output 3: 105
+
+Explanation:
+
+Test case 1: King has 4 cars that seat 5 each and 8 cars that seat 7 each, So, 4 x E +8x776 people can travel together.
+
+
+
+import java.util.*;
+public class king{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int N=sc.nextInt();
+        int M=sc.nextInt();
+        int NMseat=(N*5) + (M*7);
+      
+        System.out.println(NMseat);
+    }
+}
