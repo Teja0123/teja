@@ -1,0 +1,42 @@
+In a mathematics, the proof utilized a concept called height Consider a fraction x/y.Its height is defined as the maximum of its numerator and denominator. So, for example, the height of 5/24 would be 24, and the height of 29/3 would be 29.
+
+Given x and y, find the height of x/y.
+
+Constraints:-100sa,b≤100.
+
+Input Format: The only line of input contains two integers, x and y.
+
+Output Format: Output a single integer, which is the height of x/y.
+
+Sample I/O:
+
+Input 1: 524
+
+Output 1: 24
+
+Input 2:
+
+
+
+
+
+
+
+
+import java.util.*;
+public class height{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+    int x=sc.nextInt();
+    int y=sc.nextInt();
+    
+    if( x > y){
+        System.out.println(x);
+    }
+    else if(y > x){
+        System.out.println(y);
+    }
+        
+        
+    }
+}
