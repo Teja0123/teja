@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Home {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int fule =sc.nextInt();
+        int  distance =sc.nextInt();
+        int  maxdis = fule * 5;
+        if(maxdis <= distance ){
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+    }
+}
