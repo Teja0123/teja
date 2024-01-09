@@ -5,7 +5,7 @@ public class square{
         int A =sc.nextInt();
         int Area=(int)A*A;
         int Peri=(int)4*A;
-        System.out.println((int)(Area));
+        System.out.println((int)(Area)+" ");
         System.out.println((int)(Peri));
     }
     
