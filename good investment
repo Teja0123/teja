@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Teja {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int inflation =sc.nextInt();
+        int  interestRate =sc.nextInt();
+        int  max = interestRate * 2;
+        if(max == inflation ){
+            System.out.println("Yes");
+        }
+        else if (max < inflation){
+            System.out.println("No");
+        }
+    }
+}
