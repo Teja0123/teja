@@ -2,24 +2,25 @@ import java.util.*;
 public class alphabet{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        String ch=sc.nextLine();
+        char ch=sc.next().charAt(0); 
+        String result= alphabet(ch);
+        System.out.println(result);
+    }
         //int y=sc.nextInt();
        // string ch1= ();
-       public static String alphabet( ch){
+       public static String alphabet(char ch){
            
        
        if (ch >= 'A' && ch <= 'Z')
        {
-           System.out.println("uppercase alphabet");
+          return "uppercase alphabet";
            
        }
        else if(ch >= 'a'  && ch <= 'z'){
-           System.out.println("lowercase alphabet");
+           return "lowercase alphabet";
        }
        else{
-           System.out.println("Not an alphabet");
+          return "Not an alphabet";
        }
-       }
-           
-       }
+     }
 }
