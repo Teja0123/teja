@@ -1,0 +1,25 @@
+import java.util.*;
+public class alphabet{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        String ch=sc.nextLine();
+        //int y=sc.nextInt();
+       // string ch1= ();
+       public static String alphabet( ch){
+           
+       
+       if (ch >= 'A' && ch <= 'Z')
+       {
+           System.out.println("uppercase alphabet");
+           
+       }
+       else if(ch >= 'a'  && ch <= 'z'){
+           System.out.println("lowercase alphabet");
+       }
+       else{
+           System.out.println("Not an alphabet");
+       }
+       }
+           
+       }
+}
